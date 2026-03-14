@@ -57,8 +57,8 @@ O servidor estará disponível por padrão no endereço configurado em seu `src/
 
 Agradecimentos aos desenvolvedores que contribuíram para este projeto, cada um trazendo sua visão técnica para compor a solução:
 
-- **Vinicius Leite (Frontend)**: Focado na experiência do usuário e na interface, garantindo que a visualização das reservas e a interação com as salas sejam intuitivas e responsivas.
-- **José André (Backend)**: Responsável pela arquitetura do servidor, implementação da lógica de negócios em GraphQL e garantia de que todas as regras de validação e segurança sejam aplicadas.
-- **Dyogo Araújo (Banco de Dados e Integração)**: Responsável pela modelagem das entidades no Prisma e pela integração entre o Backend e o Frontend, garantindo que os dados fluam corretamente entre as duas camadas do sistema.
+- **Vinicius Leite**: Atuou na definição dos Schemas do GraphQL e na estruturação dos tipos de dados, garantindo que as consultas e mutações estivessem alinhadas com as necessidades de consumo da API.
+- **José André**: Desenvolveu a arquitetura base do servidor Express, implementou os resolvers do GraphQL e a lógica de negócios central, além de configurar as camadas de autenticação e segurança (JWT e bcrypt).
+- **Dyogo Araújo**: Responsável pela camada de dados com Prisma ORM, criando e mantendo os modelos de dados, gerindo as migrações do banco de dados.
 
 Desenvolvido como parte de um projeto de teste.
